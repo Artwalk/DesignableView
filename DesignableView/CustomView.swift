@@ -8,6 +8,7 @@
 
 import UIKit
 
-class CustomView {
+class CustomView: DesignableView {
 
+    @IBOutlet weak var button: UIButton!
 }
