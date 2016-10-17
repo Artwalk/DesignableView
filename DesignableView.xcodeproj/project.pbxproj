@@ -13,6 +13,8 @@
 		6EA9722C1DB52F8D00D907FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA9722B1DB52F8D00D907FA /* Assets.xcassets */; };
 		6EA9722F1DB52F8D00D907FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA9722D1DB52F8D00D907FA /* LaunchScreen.storyboard */; };
 		6EA972371DB52FD400D907FA /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA972361DB52FD400D907FA /* DesignableView.swift */; };
+		6EA972391DB5300900D907FA /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA972381DB5300900D907FA /* CustomView.swift */; };
+		6EA9723B1DB5303200D907FA /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA9723A1DB5303200D907FA /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6EA9722E1DB52F8D00D907FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EA972301DB52F8D00D907FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EA972361DB52FD400D907FA /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		6EA972381DB5300900D907FA /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		6EA9723A1DB5303200D907FA /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6EA9722D1DB52F8D00D907FA /* LaunchScreen.storyboard */,
 				6EA972301DB52F8D00D907FA /* Info.plist */,
 				6EA972361DB52FD400D907FA /* DesignableView.swift */,
+				6EA972381DB5300900D907FA /* CustomView.swift */,
+				6EA9723A1DB5303200D907FA /* CustomView.xib */,
 			);
 			path = DesignableView;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EA9722F1DB52F8D00D907FA /* LaunchScreen.storyboard in Resources */,
+				6EA9723B1DB5303200D907FA /* CustomView.xib in Resources */,
 				6EA9722C1DB52F8D00D907FA /* Assets.xcassets in Resources */,
 				6EA9722A1DB52F8D00D907FA /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EA972271DB52F8D00D907FA /* ViewController.swift in Sources */,
+				6EA972391DB5300900D907FA /* CustomView.swift in Sources */,
 				6EA972251DB52F8D00D907FA /* AppDelegate.swift in Sources */,
 				6EA972371DB52FD400D907FA /* DesignableView.swift in Sources */,
 			);
