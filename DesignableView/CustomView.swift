@@ -10,5 +10,12 @@ import UIKit
 
 class CustomView: DesignableView {
 
+    var buttonAction: (()->())?
+    
     @IBOutlet weak var button: UIButton!
+    
+    @IBAction func buttonTouchUpInside(_ sender: AnyObject) {
+        buttonAction?()
+    }
+    
 }
